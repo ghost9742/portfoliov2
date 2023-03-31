@@ -19,7 +19,7 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li>
           {" "}
-          <Link className="p-3" to={"/"}>
+          <Link className="p-3" to={"/portfoliov2"}>
             Home
           </Link>
         </li>
