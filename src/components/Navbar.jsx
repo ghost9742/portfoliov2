@@ -36,19 +36,19 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile menu*/}
-      <nav className="md:hidden z-10 fixed bottom-0 left-0 w-[100%] flex justify-between text-center text-4xl mx-0 px-20 bg-[#fca311] text-[#14213d]">
-        <Link to={"/"} className="p-3">
+      <nav className="md:hidden z-10 fixed bottom-0 left-0 w-[100%] flex justify-between text-center text-4xl mx-0 px-5 bg-[#fca311] text-[#14213d]">
+        <Link to={"/"} className="p-3 ">
           <AiFillHome />
         </Link>
-        <Link to={"/about"} className="p-3">
+        <Link to={"/about"} className="p-3 ">
           <BsFillPersonBadgeFill />
         </Link>
-        <Link to={"/work"} className="p-3">
+        <Link to={"/work"} className="p-3 ">
           <BsFillBriefcaseFill />
         </Link>
         <a
           href="https://www.upwork.com/freelancers/~017fcc2b2c6b184aee"
-          className="p-3 hover:cursor-pointer text-[#14A800]"
+          className=" p-3 hover:cursor-pointer text-[#14A800]"
           target="_blank"
           rel="noreferrer"
         >
