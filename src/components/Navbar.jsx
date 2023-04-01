@@ -19,7 +19,7 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li>
           {" "}
-          <Link className="p-3" to={"/portfoliov2"}>
+          <Link className="p-3" to={"/"}>
             Home
           </Link>
         </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {/* Mobile menu*/}
       <nav className="md:hidden z-10 fixed bottom-0 left-0 w-[100%] flex justify-between text-center text-4xl mx-0 bg-[#e5e5e5] text-[#000000]">
-        <Link to={"/portfoliov2"} className="p-7">
+        <Link to={"/"} className="p-7">
           <AiFillHome />
         </Link>
         <Link to={"/about"} className="p-7">
