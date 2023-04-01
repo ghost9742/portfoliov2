@@ -13,7 +13,7 @@ const Home = () => {
           Nemanja Milosavljevic
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#e5e5e5]">
-          I'm a HTML Email Developer
+          I'm a Full Stack Web Developer
         </h2>
         <p className="text-[#e5e5e5] py-4 max-w-[700px]">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore

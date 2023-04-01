@@ -19,7 +19,7 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li>
           {" "}
-          <Link className="p-3" to={"/portfoliov2"}>
+          <Link className="p-3" to={"/"}>
             Home
           </Link>
         </li>
@@ -36,19 +36,19 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile menu*/}
-      <nav className="md:hidden z-10 fixed bottom-0 left-0 w-[100%] flex justify-between text-center text-4xl mx-0 bg-[#e5e5e5] text-[#000000]">
-        <Link to={"/portfoliov2"} className="p-7">
+      <nav className="md:hidden z-10 fixed bottom-0 left-0 w-[100%] flex justify-between text-center text-4xl mx-0 px-20 bg-[#fca311] text-[#14213d]">
+        <Link to={"/"} className="p-3">
           <AiFillHome />
         </Link>
-        <Link to={"/about"} className="p-7">
+        <Link to={"/about"} className="p-3">
           <BsFillPersonBadgeFill />
         </Link>
-        <Link to={"/work"} className="p-7">
+        <Link to={"/work"} className="p-3">
           <BsFillBriefcaseFill />
         </Link>
         <a
           href="https://www.upwork.com/freelancers/~017fcc2b2c6b184aee"
-          className="p-7 hover:cursor-pointer text-[#14A800]"
+          className="p-3 hover:cursor-pointer text-[#14A800]"
           target="_blank"
           rel="noreferrer"
         >
