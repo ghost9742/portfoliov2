@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Routes>
+      <Routes basename="/portfoliov2">
         <Route path="/portfoliov2" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
