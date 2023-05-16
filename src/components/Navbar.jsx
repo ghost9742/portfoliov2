@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#14213d] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#118ab2] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo" style={{ width: "50px" }} />
+        <img src={Logo} alt="Logo" style={{ width: "70px" }} />
       </div>
 
       {/* menu*/}
@@ -36,7 +36,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile menu*/}
-      <nav className="md:hidden z-10 fixed bottom-0 left-0 w-[100%] flex justify-between text-center text-4xl mx-0 px-5 bg-[#fca311] text-[#14213d]">
+      <nav className="md:hidden z-10 fixed bottom-0 left-0 w-[100%] flex justify-between text-center text-4xl mx-0 px-11 bg-[#073b4c] text-[#ffffff]">
         <Link to={"/"} className="p-3 ">
           <AiFillHome />
         </Link>
