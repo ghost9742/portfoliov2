@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(39, 45, 58, 0.58),
+    rgba(20, 33, 61, 0.322)
+  ) !important;
+}
+
+.hover-class {
+  transition: all 0.5s ease;
+}
+
+.hover-class:hover {
+  background-color: #14213d;
+  color: #fff;
+}
+
+nav a.active {
+  color: #06d6a0;
+}
+
+li a.active {
+  color: #06d6a0;
+}
