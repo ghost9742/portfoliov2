@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfoliov2/static/css/main.12fe9245.css",
-    "main.js": "/portfoliov2/static/js/main.c4aa24bc.js",
-    "static/media/project1.png": "/portfoliov2/static/media/project1.1062fb162b1b67ff1145.png",
-    "static/media/workImg.jpeg": "/portfoliov2/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
-    "static/media/logo-color.svg": "/portfoliov2/static/media/logo-color.29be523f1b0b4833b0086e4d5b187477.svg",
-    "index.html": "/portfoliov2/index.html",
-    "main.12fe9245.css.map": "/portfoliov2/static/css/main.12fe9245.css.map",
-    "main.c4aa24bc.js.map": "/portfoliov2/static/js/main.c4aa24bc.js.map"
+    "main.css": "/static/css/main.87047172.css",
+    "main.js": "/static/js/main.5d8358f3.js",
+    "static/media/workImg.jpeg": "/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/weather-app.png": "/static/media/weather-app.56dd682143081ea14d5a.png",
+    "static/media/todo-app.png": "/static/media/todo-app.d4d5ae1ab2931689e6c6.png",
+    "static/media/logo-color.svg": "/static/media/logo-color.29be523f1b0b4833b0086e4d5b187477.svg",
+    "index.html": "/index.html",
+    "main.87047172.css.map": "/static/css/main.87047172.css.map",
+    "main.5d8358f3.js.map": "/static/js/main.5d8358f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.12fe9245.css",
-    "static/js/main.c4aa24bc.js"
+    "static/css/main.87047172.css",
+    "static/js/main.5d8358f3.js"
   ]
 }
