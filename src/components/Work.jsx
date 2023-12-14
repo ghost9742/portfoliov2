@@ -1,5 +1,4 @@
 import React from "react";
-import WorkImg from "../assets/projects/workImg.jpeg";
 import project1 from "../assets/projects/weather-app.png";
 import project2 from "../assets/projects/todo-app.png";
 

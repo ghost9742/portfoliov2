@@ -6,7 +6,7 @@ import { BsPersonBadge } from "react-icons/bs";
 import { BsBriefcase } from "react-icons/bs";
 
 import Logo from "../assets/logo-color.svg";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
