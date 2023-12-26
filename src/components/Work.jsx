@@ -115,7 +115,7 @@ const Work = () => {
     //     </div>
     <div
       name=""
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full text-center md:text-left "
+      className=" bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full text-center md:text-left pt-20"
     >
       <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 sm:pb-2 sm:mt-20 sm:mb-20 mt-20 lg:pb-3">
@@ -125,7 +125,7 @@ const Work = () => {
           {/* <p className="py-6">work</p> */}
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-5 sm:mb-20 mb-20">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-5 sm:mb-20 mb-20 h-full">
           {items.map(({ id, src, link1, link2 }) => (
             <div
               key={id}
