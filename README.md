@@ -1,1 +1,1 @@
-redirect to main page
+# redirect to main page
